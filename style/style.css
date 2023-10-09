@@ -22,3 +22,8 @@ body{
 .text-div{
     box-sizing: border-box;
 }
+.text-container{
+    width: 87%;
+    margin-inline: auto;
+    padding-block: 25px;
+}
