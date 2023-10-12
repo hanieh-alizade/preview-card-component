@@ -9,6 +9,12 @@
     --fw-one: 500;
     --color-2: hsl(30, 38%, 92%);
 }
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body{
     overflow: hidden;
     display: flex;
@@ -35,11 +41,8 @@ body{
     display: block;
     border-radius: 10px 0 0 10px;
     height: 100%;
-    box-sizing: border-box;
 }
 .text-div{
-    box-sizing: border-box;
-    wit
 }
 .text-container{
     width: 87%;
